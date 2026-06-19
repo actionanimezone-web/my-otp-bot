@@ -3,7 +3,7 @@ import requests
 from telebot import types
 
 # ⚙️ বটের মূল সেটিংস 
-BOT_TOKEN = "8781169713:AAFbUVk8WdahpM7R3-b1WdjLdTjM7iuyAP8"
+BOT_TOKEN = "8781169713:AAEbXX3VHzJqi7R7MM5ji3uCjTUvRQbvg2Q"
 ADMIN_ID = 8801880413789  # আপনার টেলিগ্রাম আইডি
 BOT_USERNAME = "Iioooc_bot"  # আপনার বটের ইউজারনেম
 SUPPORT_CHANNEL = "https://t.me/BuyZonePro"  # আপনার সাপোর্ট চ্যানেল লিংক
