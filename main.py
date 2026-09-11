@@ -66,9 +66,8 @@ PRIMARY_ADMIN_USERNAME = "@Ariyan_Ahamed_Ari"
 MAX_ADMINS = 5
 
 # Personal bot credentials. Replace these two values before running.
-HARDCODED_BOT_TOKEN = "8938433828:AAEE-5gezl-9KY5g3cEA_rcSf6U6bCralf8"
-HARDCODED_MONGO_URI = "PASTE_YOUR_MONGODB_URI_HERE"
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+MONGO_URI = os.getenv("MONGO_URI")
 
 @dataclass(frozen=True)
 class Admin:
